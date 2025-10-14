@@ -1,10 +1,10 @@
-public class EvenOdd{
+public class EvenOdd {
     public static void main(String[] args) {
-        int n = 9; 
-        if(n %2 == 0){
-            System.out.println("ODD");
-        }else{
-            System.out.println("EVEN");
+        int n = 9;
+        if (n % 2 == 0) {
+            System.out.println("even");
+        } else {
+            System.out.println("odd");
         }
     }
 }
