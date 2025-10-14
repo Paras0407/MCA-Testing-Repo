@@ -2,9 +2,9 @@ public class EvenOdd{
     public static void main(String[] args) {
         int n = 9; 
         if(n %2 == 0){
-            System.out.println("ODD");
+            System.out.println("Even");
         }else{
-            System.out.println("EVEN");
+            System.out.println("Odd");
         }
     }
 }
