@@ -1,10 +1,14 @@
-public class EvenOdd {
+import java.util.Scanner;
+
+public class EvenOdd{
     public static void main(String[] args) {
-        int n = 9;
-        if (n % 2 == 0) {
-            System.out.println("even");
-        } else {
-            System.out.println("odd");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the number");
+        int n = sc.nextInt();
+          if(n %2 == 0){
+            System.out.println("EVEN");
+        }else{
+            System.out.println("ODD");
         }
     }
 }
