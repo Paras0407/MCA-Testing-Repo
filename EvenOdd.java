@@ -4,7 +4,7 @@ public class EvenOdd{
         if(n %2 == 0){
             System.out.println("Even");
         }else{
-            System.out.println("odd");
+            System.out.println("Odd");
         }
     }
 }
